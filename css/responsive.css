@@ -1,0 +1,342 @@
+@media screen and (max-width: 1400px) {
+    /* Topo logo e entrar */
+    header .logo-netflix {
+        margin: 10px;
+    }
+
+    header .logo-netflix img  {
+        width: 160px;
+    }
+
+    header .lang-and-enter {
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    /* Container assisnatura */
+    section .title-signature h1 {
+        font-size: 3rem;
+    }
+    
+    section .title-signature h2 {
+        font-size: 1.5rem;
+    }
+
+    section .input-group input {
+        height: 60px;
+    }
+
+    section .input-group input:focus + label {
+        transform: translateY(-16px);
+        font-size: 0.75rem;
+    }
+    
+    section .input-group label {
+        top: 35%;
+    }
+
+    section .button-group button {
+        padding: 16.5px 20px;
+    }
+
+    section .button-group button span {
+        font-size: 1.5rem;
+
+    }
+    
+    section .button-group button .fa-chevron-right {
+        margin-left: 10px;
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media screen and (max-width: 960px) {
+    /* Topo logo e entrar */
+    header .container-header {
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        background-color: transparent;
+        width: 100%;
+    }
+
+    header .logo-netflix {
+        margin: 15px;
+    }
+
+    header .logo-netflix img  {
+        width: 140px;
+    }
+
+    header .lang-and-enter {
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    /* Container assisnatura */
+    section .group-container {
+        flex-direction: column;
+    }
+    
+    section .input-group input {
+        border-radius: 2px;
+        height: 60px;
+    }
+    
+    section .button-group {
+        margin: 15px auto;
+    }
+    
+    section .button-group button {
+        padding: 14px 18px;
+        border-radius: 3px;
+    }
+
+    section .button-group button span {
+        font-size: 1rem;
+    }
+    
+    section .button-group button .fa-chevron-right {
+        font-size: 1rem;
+    }
+    
+    /* Conteudo All */
+    section .title {
+        text-align: center;
+    }
+
+    section .title h3 {
+        font-size: 2.4rem;
+    }
+
+    section .title p {
+        font-size: 1.3rem;
+    }
+
+    section .content-viewer-all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* Conteudo TV */
+    section .image-tv-enjoy img {
+        width: 80%;
+    }
+
+    section .video-tv-enjoy {
+        z-index: -1;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        width: 59%;
+    }
+
+    /* Conteudo Mobile */
+    section .content-downloading-mobile {
+        order: 2;
+        width: 100%;
+    }
+
+    section .content-downloading-mobile {
+        margin-right: unset;
+    }
+
+    section .downloading-viewer-container {
+        width: 50%;
+        top: 70%;
+        left: 24%;
+    }
+
+    section .downloading-viewer-container img {
+        width: 45px;
+    }
+
+    /* Perguntas Container */
+    section .title-questions h2 {
+        font-size: 2.4rem;
+    }
+
+    section .question-box-all ul li button {
+        padding: 15px 20px;
+    }
+    
+    section .question-box-all ul li button span {
+        font-size: 1.3rem;
+    }
+    
+    section .lines .line1 {
+        width: 20px;
+    }
+    
+    section .lines .line2 {
+        width: 20px;
+    }
+
+    section .text-question-answer p {
+        font-size: 1.3rem;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /* Container assisnatura */
+    section .input-group {
+        width: 100%;
+    }
+    
+    section .input-group input {
+        width: 100%;
+        height: 50px;
+    }
+
+    section .input-group input:focus + label {
+        transform: translateY(-13px);
+        font-size: 0.7rem;
+    }
+
+    section .input-group label {
+        position: absolute;
+        top: 32%;
+        left: 10px;
+        color: #8c8c8c;
+        font-size: 0.95rem;
+    }
+
+    /* Conteudo Mobile */
+    section .downloading-viewer-container {
+        width: 70%;
+        top: 70%;
+        left: 15%;
+    }
+
+    section .downloading-text-mobile span {
+        font-size: 0.9rem;
+    }
+
+    section .downloading-text-mobile span:last-child {
+        font-size: 0.8rem;
+    }
+
+    section .downloading-viewer-container img {
+        width: 35px;
+    }
+
+    /* Rodapé */
+    footer .links-footer ul li {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    /* Topo logo e entrar */
+    header .container-header {
+        padding: 0 10px;
+
+    }
+
+    header .logo-netflix {
+        margin: 15px 0;
+    }
+
+    header .logo-netflix img  {
+        width: 120px;
+    }
+
+    header .lang-and-enter {
+        padding: 0;
+    }
+    
+    /* Modificação do Select */
+    header .select-content-globe {
+        margin: 0;
+    }
+
+    header .fa-globe {
+        top: 7px;
+    }
+
+    header .fa-sort-down {
+        top: 0px;
+    }
+
+    header .select-content-globe select {
+        padding: 0.3rem 1.45rem;
+    }
+
+    /* Botão Entrar */
+    header .button-enter-container {
+        display: flex;
+        align-items: center;
+        margin: 15px;
+    }
+
+    header .button-enter-container a {
+        padding: 0.3rem 0.6rem;
+        background-color: #e50914;
+        border-radius: 3px;
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    /* Container assisnatura */ 
+    section .container-previewer-signature {
+        min-height: 550px;
+    }
+
+    section .signature-content {
+        width: 800px;
+        margin: auto;
+        margin-top: 120px;
+        text-align: center;
+    }
+
+    section .button-group button {
+        padding: 12px 14px;
+    }
+    
+    section .title-signature h1 {
+        font-size: 1.6rem;
+    }
+    
+    section .title-signature h2 {
+        font-size: 1.2rem;
+    }
+
+    section .group-container {
+        margin: 20px 0;
+    }
+
+    /* Conteudo All */
+    section .title h3 {
+        font-size: 1.6rem;
+    }
+
+    section .title p {
+        font-size: 1.1rem;
+    }
+
+    /* Perguntas frequentes container */
+    section .question-box-all {
+        margin: 40px 0;
+    }
+
+    section .title-questions h2 {
+        font-size: 1.8rem;
+    }
+
+    section .question-box-all ul li button {
+        padding: 15px 20px;
+    }
+    
+    section .question-box-all ul li button span {
+        font-size: 1.1rem;
+    }
+}
